@@ -81,27 +81,27 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Votre message a été envoyé." fail-msg="Désolé, il semble que notre serveur de messagerie ne réponde pas, Désolé pour le dérangement !">
 					<div class="form-group">
-						<label aria-label="Nom">
+						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name"  aria-label="Nom" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label aria-label="email">
+						<label >
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" aria-label="email" type="email" required />
 					</div>
 					<div class="form-group">
-						<label aria-label="Comment nous avez-vous connu?">
+						<label >
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="email" aria-label="Comment nous avez-vous connu?" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label aria-label="details">
+						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control"  aria-label="details" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
